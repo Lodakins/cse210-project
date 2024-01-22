@@ -2,15 +2,14 @@ namespace journal{
 
     class Entry{
 
-        string _date;
-        string _prompText;
+        public string _date;
+        public string _prompText;
         
-        string _entryText;
+        public string _entryText;
 
-        void Display(){
-            
+        public void Display(){
+            Console.WriteLine($"Date: {this._date} - Prompt: {this._prompText} \n{this._entryText} \n");
         }
-
 
 
     }
