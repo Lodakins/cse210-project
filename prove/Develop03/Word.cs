@@ -28,7 +28,7 @@ public class Word{
     }
 
     public string GetDisplayText(){
-        return IsHidden ? "____" : GetText();
+        return _isHidden ? "____" : GetText();
     }
 
     public void SetText(string text){
